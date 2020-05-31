@@ -701,10 +701,12 @@ footer{
     .bg{
         height: 570px;
     }
-
-    .our-works__wrap .our-works .our-work__cards .our-work__card  a{
-        text-align: center;
+    
+    .our-works__wrap .our-works .our-work__cards .our-work__card{
+         text-align: center;
     }
+
+
 
     .form-wrap form input[type=email]{
         width: 250px;
