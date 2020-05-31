@@ -660,6 +660,7 @@ footer{
     .standarts-wrap .standarts .standarts-offer img{
         width: 350px;
         margin: 10px auto;
+        height: auto;
     }
 
     .standarts-wrap .standarts .stanarts-counts .stanart-count{
@@ -690,6 +691,7 @@ footer{
 
     .standarts-wrap .standarts .standarts-offer img,.video ,  .our-work__card img {
         width: 300px;
+        height: auto;
     }
 
     .bg{
