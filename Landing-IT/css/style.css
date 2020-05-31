@@ -627,6 +627,10 @@ footer{
     .mob-menu{
         display: block;
     }
+    
+    .bg-2{
+        height:470px;
+    }
 
     .video{
         width: 450px;
