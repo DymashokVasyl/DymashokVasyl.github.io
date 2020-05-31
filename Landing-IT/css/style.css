@@ -8,6 +8,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body.no-scroll{
+    overflow:hidden;
+}
+
 h2{
     font-size: 36px;
     font-weight: 800;
