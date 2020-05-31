@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     mobMenu.addEventListener('click', () => {
         mobMenu.classList.toggle('active');
         navList.classList.toggle('open');
+        document.body.style.overflow = 'hidden';
+
     });
 
     function scroll(count, el, timeout, step) {
