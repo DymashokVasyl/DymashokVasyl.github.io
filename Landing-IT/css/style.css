@@ -654,6 +654,7 @@ footer{
 
     .form-wrap form input[type=submit]{
 /*         box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25); */
+        box-shadow: none;
         border-radius: 30px;
         margin: 10px 0 0;
     }
