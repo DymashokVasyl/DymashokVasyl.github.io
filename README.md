@@ -8,7 +8,7 @@
 
 <h2>My projects</h2>
   <ol>
-    <li><a htef = "https://dymashokvasyl.github.io/Landing-IT/">Landing IT</a></li>
-    <li><a htef = "https://dymashokvasyl.github.io/Shopping%20list/">Shopping List</a></li>
+    <li><a href = "https://dymashokvasyl.github.io/Landing-IT/">Landing IT</a></li>
+    <li><a href = "https://dymashokvasyl.github.io/Shopping%20list/">Shopping List</a></li>
 
   </ol>
