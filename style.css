@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    background: #240229;
+}
+
+h1{
+    margin: 25px 0;
+    text-align: center;
+
+}
+
+.main{
+    /* position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-30%); */
+    display: none;
+}
+
+/* Preloader */
+.preloader{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.load{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9,#FFeb3b,#ff00e0);
+    animation: animate 0.5s linear infinite;
+    line-height: 300px;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);   
+    }
+    100%{
+        transform: rotate(360deg);    
+    }
+}
+.load span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9,#FFeb3b,#ff00e0);
+}
+.load span:nth-child(1){
+    filter: blur(10px);
+}
+.load span:nth-child(2){
+    filter: blur(25px);
+}
+.load span:nth-child(3){
+    filter: blur(50px);
+}
+.load span:nth-child(4){
+    filter: blur(100px);
+}
+.load::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    background: #240229;
+}
+
+/* End Preloader */
+
+.shopping-item-add{
+   display: flex;
+   justify-content: center;
+   margin: 25px;
+
+}
+
+#shopping-item{
+    width: 300px;
+    outline: none;
+    border: 1px solid;
+    margin: 0 10px;
+    padding: 0px 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    border-radius: 40px;
+
+}
+
+.btn{
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+}
+.add-item i{
+    font-size: 40px;
+    color: rgb(1, 235, 13);
+}
+
+.remove-item i{
+    font-size: 40px;
+    color: rgba(235, 1, 1, 0.74);
+}
+
+#shopping-item.error{
+    border: 1px solid red;
+}
+
+.shopping-table{
+    margin: 0 auto;
+    height: 15px;
+    overflow: scroll;
+}
+
+.shopping-table .item{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.clear-all{
+    display: none;
+    margin: 0 auto;
+    width: 100px;
+    text-transform: uppercase;
+}
+
